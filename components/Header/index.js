@@ -77,7 +77,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:b20314@students.iitmandi.ac.in")
                       }
                     >
                       Resume
